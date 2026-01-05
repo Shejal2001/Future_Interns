@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brand Re-Design</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{margin:0;font-family:Arial;background:#0f172a;color:white}
+header{padding:50px;text-align:center;background:linear-gradient(135deg,#6366f1,#22d3ee)}
+section{padding:30px}
+.card{background:#1e293b;padding:20px;margin:15px;border-radius:12px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>NIKE – AI Re-Designed</h1>
+<p>Modern UI | AI Inspired Colors</p>
+</header>
+
+<section>
+<div class="card">
+<h2>About Brand</h2>
+<p>Reimagined Nike website with modern UI, minimal layout and bold visuals.</p>
+</div>
+
+<div class="card">
+<h2>Features</h2>
+<ul>
+<li>AI-inspired color palette</li>
+<li>Mobile responsive design</li>
+<li>Clean typography</li>
+</ul>
+</div>
+</section>
+
+</body>
+</html>
