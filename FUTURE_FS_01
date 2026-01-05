@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sejal Tingre | Portfolio</title>
+<style>
+body{font-family:Arial;background:#f4f6f8;margin:0}
+header{background:#111827;color:#fff;padding:40px;text-align:center}
+section{background:#fff;margin:20px auto;padding:20px;width:90%;max-width:900px;border-radius:8px}
+h2{color:#2563eb}
+.skills span{background:#e5e7eb;padding:8px 12px;border-radius:20px;margin:5px;display:inline-block}
+button{background:#2563eb;color:white;border:none;padding:10px 15px;border-radius:5px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Sejal Tingre</h1>
+<p>Computer Engineering Graduate</p>
+</header>
+
+<section>
+<h2>About Me</h2>
+<p>Detail-oriented graduate with interest in web development and data-focused roles.</p>
+</section>
+
+<section>
+<h2>Skills</h2>
+<div class="skills">
+<span>HTML</span><span>CSS</span><span>JavaScript</span>
+<span>Python</span><span>Java</span><span>SQL</span>
+</div>
+</section>
+
+<section>
+<h2>Projects</h2>
+<ul>
+<li>Task Management & Quality Tracking System</li>
+<li>Image Annotation using CVAT</li>
+</ul>
+</section>
+
+<section>
+<h2>Contact</h2>
+<form onsubmit="msg(event)">
+<input required placeholder="Name"><br><br>
+<input required type="email" placeholder="Email"><br><br>
+<textarea required placeholder="Message"></textarea><br><br>
+<button>Send</button>
+</form>
+<p id="status"></p>
+</section>
+
+<script>
+function msg(e){
+e.preventDefault();
+document.getElementById("status").innerText="Message Sent Successfully!";
+}
+</script>
+
+</body>
+</html>
